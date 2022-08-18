@@ -416,7 +416,7 @@ def create_connection(host_name, user_name, user_password):
         connection = mysql.connector.connect(
             host = '127.0.0.1',
             user = 'root',
-            passwd = 'Samsung123',
+            passwd = 'xyz',
             database = 'library_management_system',
             auth_plugin='mysql_native_password'
         )
